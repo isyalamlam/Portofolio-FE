@@ -1,0 +1,83 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.vertical-text{
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.wavatar{
+  width: 30rem;
+}
+
+.hero-content{
+  margin-top: 7rem;
+}
+
+.skeIeton {
+  /* border-radius: var(--rounded-box, 1rem); */
+  --tw-bg-opacity: 1;
+  background-color: var(--fallback-b3,oklch(var(--b3)/var(--tw-bg-opacity)));
+  will-change: background-position;
+  animation: skeleton 2.8s ease-in-out infinite;
+  background-image: linear-gradient(
+  105deg,
+  transparent 0%,
+  transparent 40%,
+  var(--fallback-b1,oklch(var(--b1)/1)) 50%,
+  transparent 60%,
+  transparent 100%
+);
+  background-size: 200% auto;
+  background-repeat: no-repeat;
+  background-position-x: -50%;
+}
+@media (prefers-reduced-motion) {
+  .skeIeton {
+      animation-duration: 15s;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

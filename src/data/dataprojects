@@ -1,0 +1,33 @@
+const projectBox: ProjectProps[] = [
+  { 
+      id: 1,
+      image: 'https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg', 
+      description: 'Description 1',
+      title: 'Project 1',
+      longDescription: 'Detailed description of Project 1...'
+  },
+  { 
+      image: 'https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg', 
+      description: 'Description 1',
+      title: 'Project 2',
+      longDescription: 'Detailed description of Project 1...'
+  },
+  { 
+      image: 'https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg', 
+      description: 'Description 1',
+      title: 'Project 3',
+      longDescription: 'Detailed description of Project 1...'
+  },
+  { 
+      image: 'https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg', 
+      description: 'Description 1',
+      title: 'Project 4',
+      longDescription: 'Detailed description of Project 1...'
+  },
+  { 
+      image: 'https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg', 
+      description: 'Description 1',
+      title: 'Project 5',
+      longDescription: 'Detailed description of Project 1...'
+  },
+]
